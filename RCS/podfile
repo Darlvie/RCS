@@ -1,0 +1,9 @@
+platform :ios,'7.0'
+pod 'MMDrawerController', '~> 0.6.0'
+pod 'MJRefresh', '~> 2.4.12'
+pod 'MJExtension', '~> 2.5.14'
+pod 'CocoaLumberjack', '~> 2.0.1’
+pod 'MBProgressHUD+BWMExtension', '~> 1.0.0'
+pod 'SDWebImage', '~> 3.7.3'
+pod 'Masonry', '~> 0.6.3'
+
