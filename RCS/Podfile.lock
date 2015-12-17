@@ -1,4 +1,25 @@
 PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - CocoaLumberjack (2.0.3):
     - CocoaLumberjack/Default (= 2.0.3)
     - CocoaLumberjack/Extensions (= 2.0.3)
@@ -7,9 +28,15 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.0.3):
     - CocoaLumberjack/Default
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - M80AttributedLabel (1.3.1)
   - Masonry (0.6.3)
   - MBProgressHUD (0.9.1)
-  - MBProgressHUD+BWMExtension (1.0.0):
+  - MBProgressHUD+BWMExtension (1.0.1):
     - MBProgressHUD (~> 0.9.1)
   - MJExtension (2.5.16)
   - MJRefresh (2.4.12)
@@ -25,27 +52,49 @@ PODS:
     - MMDrawerController/Core
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
+  - NIMSDK (1.7.1)
+  - Pgyer (2.8.4)
+  - Reachability (3.1.1)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
+  - SVProgressHUD (1.1.3)
+  - Toast (2.4)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.5.1)
+  - CocoaLumberjack (~> 2.0.0-rc2)
   - CocoaLumberjack (~> 2.0.1)
+  - FMDB (~> 2.5)
+  - M80AttributedLabel (~> 1.3.1)
   - Masonry (~> 0.6.3)
   - MBProgressHUD+BWMExtension (~> 1.0.0)
   - MJExtension (~> 2.5.14)
   - MJRefresh (~> 2.4.12)
   - MMDrawerController (~> 0.6.0)
+  - NIMSDK
+  - Pgyer (~> 2.8.3)
+  - Reachability (~> 3.1.1)
   - SDWebImage (~> 3.7.3)
+  - SVProgressHUD (~> 1.1.2)
+  - Toast (~> 2.4)
 
 SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  M80AttributedLabel: 7bb3456dcdf847b111fac6695e7c40650ab2b6d2
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
-  MBProgressHUD+BWMExtension: dd1dff033c1802edf7cb613c5643db5f090575bd
+  MBProgressHUD+BWMExtension: d0603a1c0b03ef74cae6a0986d63c0bdf34bedfe
   MJExtension: b8c1321a77d91bcc007b94d38cbf5383c95ea30e
   MJRefresh: ca8e9589895977df32d379d46e6b8a5450b3ff44
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  NIMSDK: a93532f633f2d448ac5d6b8a9e8da3925cc6a938
+  Pgyer: 26edfcc8da6da6383fabfdbccd2f77c623b9d6eb
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
 
 COCOAPODS: 0.39.0

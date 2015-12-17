@@ -2,8 +2,18 @@ platform :ios,'7.0'
 pod 'MMDrawerController', '~> 0.6.0'
 pod 'MJRefresh', '~> 2.4.12'
 pod 'MJExtension', '~> 2.5.14'
-pod 'CocoaLumberjack', '~> 2.0.1’
+
 pod 'MBProgressHUD+BWMExtension', '~> 1.0.0'
 pod 'SDWebImage', '~> 3.7.3'
 pod 'Masonry', '~> 0.6.3'
+pod 'NIMSDK'
+pod 'Toast', '~> 2.4'
+
+pod 'SVProgressHUD', '~> 1.1.2'
+pod 'M80AttributedLabel', '~> 1.3.1'
+pod 'AFNetworking', '~> 2.5.1'
+pod 'FMDB', '~> 2.5'
+pod 'Reachability', '~> 3.1.1'
+pod 'CocoaLumberjack', '~> 2.0.0-rc2'
+pod 'Pgyer', '~> 2.8.3'
 

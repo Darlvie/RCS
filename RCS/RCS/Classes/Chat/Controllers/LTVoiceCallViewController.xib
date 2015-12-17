@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -18,6 +18,7 @@
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93U-HC-Ipe">
                     <rect key="frame" x="170" y="255" width="260" height="260"/>
+                    <animations/>
                     <constraints>
                         <constraint firstAttribute="height" constant="260" id="ICX-wF-zm8"/>
                         <constraint firstAttribute="width" constant="260" id="KJk-eN-wOy"/>
@@ -29,8 +30,9 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B99-tn-kjm">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="共1人对讲中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOi-1h-0VX">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="共1人对讲中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOi-1h-0VX">
                             <rect key="frame" x="253" y="5" width="95" height="25"/>
+                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="p3C-Le-5WI"/>
                             </constraints>
@@ -43,6 +45,7 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHm-Lk-dCi" userLabel="avatar">
                                     <rect key="frame" x="275" y="8" width="50" height="50"/>
+                                    <animations/>
                                     <color key="backgroundColor" red="1" green="0.89025103959999996" blue="0.22684107100000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="50" id="GCN-EI-28Q"/>
@@ -53,6 +56,7 @@
                                     </state>
                                 </button>
                             </subviews>
+                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="HHm-Lk-dCi" secondAttribute="bottom" constant="2" id="LH8-Jd-6pZ"/>
                                 <constraint firstItem="HHm-Lk-dCi" firstAttribute="centerX" secondItem="IBs-I1-qw6" secondAttribute="centerX" id="N9H-xS-6wy"/>
@@ -62,6 +66,7 @@
                             </constraints>
                         </scrollView>
                     </subviews>
+                    <animations/>
                     <color key="backgroundColor" red="0.83529411764705885" green="0.83529411764705885" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="IBs-I1-qw6" firstAttribute="leading" secondItem="B99-tn-kjm" secondAttribute="leading" id="E61-PM-xi3"/>
@@ -73,6 +78,7 @@
                     </constraints>
                 </view>
             </subviews>
+            <animations/>
             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="B99-tn-kjm" secondAttribute="trailing" id="1Ac-MQ-6Xq"/>

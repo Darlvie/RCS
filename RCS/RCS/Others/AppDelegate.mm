@@ -9,7 +9,8 @@
 #import "AppDelegate.h"
 #import "LTLoginViewController.h"
 #import <BaiduMapAPI_Map/BMKMapComponent.h>
-
+#import "LTLoginController.h"
+#import "NIMSDK.h"
 
 @interface AppDelegate ()
 
@@ -28,16 +29,14 @@
         NSLog(@"manager start failed!");
     }
     
-//    [DDLog addLogger:[DDASLLogger sharedInstance]];
-//    
-//    [DDLog addLogger:[DDTTYLogger sharedInstance]];
-//    
-//    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
-    
+    [[NIMSDK sharedSDK] registerWithAppID:@"2663bf1d5cea0701a6e9375a2cc571aa"
+                                  cerName:@"RCSSandbox"];
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
-    LTLoginViewController *loginVC = [[LTLoginViewController alloc]init];
-    [self.window setRootViewController:loginVC];
+    LTLoginController *loginController = [[LTLoginController alloc] initWithNibName:@"LTLoginController" bundle:nil];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:loginController];
+//    LTLoginViewController *loginVC = [[LTLoginViewController alloc]init];
+    [self.window setRootViewController:navi];
   
     [self.window setTintColor:[UIColor whiteColor]];
     [self.window makeKeyAndVisible];
@@ -48,6 +47,11 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
     //当应用即将后台时调用，停止一切调用opengl相关的操作
     [BMKMapView willBackGround];
+}
+
+- (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    [[NIMSDK sharedSDK] updateApnsToken:deviceToken];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
