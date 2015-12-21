@@ -6,7 +6,7 @@ pod 'MJExtension', '~> 2.5.14'
 pod 'MBProgressHUD+BWMExtension', '~> 1.0.0'
 pod 'SDWebImage', '~> 3.7.3'
 pod 'Masonry', '~> 0.6.3'
-pod 'NIMSDK'
+#pod 'NIMSDK'
 pod 'Toast', '~> 2.4'
 
 pod 'SVProgressHUD', '~> 1.1.2'

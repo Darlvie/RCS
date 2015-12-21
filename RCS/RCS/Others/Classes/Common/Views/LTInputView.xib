@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LTInputView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_bottom_bg" translatesAutoresizingMaskIntoConstraints="NO" id="bRe-zA-vJ4">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAQ-K9-1pz" userLabel="recordButton">
+                    <rect key="frame" x="4" y="4" width="30" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="F1G-Ui-tX3"/>
+                        <constraint firstAttribute="width" constant="30" id="Kkv-Cn-s4u"/>
+                    </constraints>
+                    <state key="normal" image="add_yuyin">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVv-ei-coI">
+                    <rect key="frame" x="532" y="8" width="60" height="32"/>
+                    <color key="backgroundColor" red="0.090196078431372548" green="0.098039215686274508" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="8sJ-ix-qq0"/>
+                        <constraint firstAttribute="width" constant="60" id="bgN-Jx-tbk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="发送">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dU9-fj-eVK">
+                    <rect key="frame" x="78" y="8" width="444" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaT-o5-JMT" userLabel="attachButton">
+                    <rect key="frame" x="38" y="4" width="30" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="nrT-Li-gGf"/>
+                        <constraint firstAttribute="width" constant="30" id="yeH-Y7-pT6"/>
+                    </constraints>
+                    <state key="normal" image="add_more">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96470588235294119" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bRe-zA-vJ4" secondAttribute="bottom" id="22R-rl-lKg"/>
+                <constraint firstAttribute="bottom" secondItem="wAQ-K9-1pz" secondAttribute="bottom" constant="4" id="8h8-9K-95I"/>
+                <constraint firstAttribute="bottom" secondItem="UVv-ei-coI" secondAttribute="bottom" constant="8" id="9gJ-Yl-RI2"/>
+                <constraint firstAttribute="bottom" secondItem="dU9-fj-eVK" secondAttribute="bottom" constant="8" id="9jU-ug-c13"/>
+                <constraint firstItem="dU9-fj-eVK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="Pm0-c5-r0C"/>
+                <constraint firstAttribute="bottom" secondItem="NaT-o5-JMT" secondAttribute="bottom" constant="4" id="TxN-4y-F8c"/>
+                <constraint firstItem="bRe-zA-vJ4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WaF-Hk-MDJ"/>
+                <constraint firstItem="wAQ-K9-1pz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="Wsf-RG-AFH"/>
+                <constraint firstItem="dU9-fj-eVK" firstAttribute="leading" secondItem="NaT-o5-JMT" secondAttribute="trailing" constant="10" id="eUJ-pL-cWM"/>
+                <constraint firstItem="NaT-o5-JMT" firstAttribute="leading" secondItem="wAQ-K9-1pz" secondAttribute="trailing" constant="4" id="fx2-ON-2cy"/>
+                <constraint firstAttribute="trailing" secondItem="UVv-ei-coI" secondAttribute="trailing" constant="8" id="mOf-bh-stP"/>
+                <constraint firstAttribute="trailing" secondItem="bRe-zA-vJ4" secondAttribute="trailing" id="sXN-xA-cBL"/>
+                <constraint firstItem="UVv-ei-coI" firstAttribute="leading" secondItem="dU9-fj-eVK" secondAttribute="trailing" constant="10" id="wcG-aj-aqu"/>
+                <constraint firstItem="bRe-zA-vJ4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wt6-Yd-yg7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="attachButton" destination="NaT-o5-JMT" id="Xe5-eS-FDn"/>
+                <outlet property="recordButton" destination="wAQ-K9-1pz" id="kxD-bh-4CU"/>
+                <outlet property="sendButton" destination="UVv-ei-coI" id="TcK-Im-dme"/>
+                <outlet property="textInputView" destination="dU9-fj-eVK" id="c1L-iw-iun"/>
+            </connections>
+            <point key="canvasLocation" x="507" y="419"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add_more" width="21" height="21"/>
+        <image name="add_yuyin" width="12" height="21"/>
+        <image name="chat_bottom_bg" width="10" height="42"/>
+    </resources>
+</document>

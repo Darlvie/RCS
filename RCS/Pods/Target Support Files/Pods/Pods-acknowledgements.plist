@@ -291,15 +291,6 @@ THE SOFTWARE.</string>
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright 2015 Netease 
-</string>
-			<key>Title</key>
-			<string>NIMSDK</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
 			<string>Copyright 2015 pgyer.com. All rights reserved.
 </string>
 			<key>Title</key>
