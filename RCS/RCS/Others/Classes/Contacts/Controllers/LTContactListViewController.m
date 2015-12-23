@@ -21,6 +21,8 @@
 #import "UIAlertView+NTESBlock.h"
 #import "LTGroupedDataCollection.h"
 #import "LTPersonalCardViewController.h"
+#import "MMDrawerBarButtonItem.h"
+#import "UIViewController+MMDrawerController.h"
 
 @interface LTContactListViewController ()
 <NIMSystemNotificationManagerDelegate,
@@ -43,6 +45,9 @@ NIMContactDataCellDelegate>
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    //设置导航左侧菜单按钮
+    [self setupLeftMenuButton];
     
     UIEdgeInsets separatorInset = self.tableView.separatorInset;
     separatorInset.right        = 0;
@@ -71,7 +76,28 @@ NIMContactDataCellDelegate>
 
 #pragma mark - Private
 
+/**
+ *  设置导航栏左侧菜单按钮
+ */
+- (void)setupLeftMenuButton {
+    MMDrawerBarButtonItem *leftMenuButton = [[MMDrawerBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"menu_btn"]
+                                                                                   style:UIBarButtonItemStyleDone
+                                                                                  target:self
+                                                                                  action:@selector(leftMenuButtonPress:)];
+    [self.navigationItem setLeftBarButtonItem:leftMenuButton animated:YES];
+}
+
+/**
+ *  点击导航栏左侧菜单按钮触发事件，打开左侧栏菜单
+ */
+- (void)leftMenuButtonPress:(id)sender {
+    [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+}
+
+
 - (void)prepareData {
+    _contacts = [[LTGroupedContacts alloc] init];
+    
     NSString *contactCellUtilIcon = @"icon";
     NSString *contactCellUtilVC   = @"vc";
     NSString *contactCellUtilBadge = @"badge";

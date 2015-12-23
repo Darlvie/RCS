@@ -10,4 +10,5 @@
 
 @interface LTContactAddFriendViewController : UIViewController
 
+@property (nonatomic,strong) UITableView *tableView;
 @end

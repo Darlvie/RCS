@@ -18,7 +18,7 @@
 #import "LTContactsViewController.h"
 #import "LTMyFilesViewController.h"
 #import "LTLoginViewController.h"
-
+#import "LTContactListViewController.h"
 
 typedef NS_ENUM(NSUInteger, SlideMenuCellType) {
     SlideMenuCellTypeChat,
@@ -189,8 +189,10 @@ typedef NS_ENUM(NSUInteger, SlideMenuCellType) {
             
         case SlideMenuCellTypeContacts:
         {
-            LTContactsViewController *constactsVC = [[LTContactsViewController alloc]init];
-            LTNavigationController *navi = [[LTNavigationController alloc]initWithRootViewController:constactsVC];
+//            LTContactsViewController *constactsVC = [[LTContactsViewController alloc]init];
+            LTContactListViewController *contactsVC = [[LTContactListViewController alloc] initWithNibName:@"LTContactListViewController"
+                                                                                                    bundle:nil];
+            LTNavigationController *navi = [[LTNavigationController alloc]initWithRootViewController:contactsVC];
             [self.mm_drawerController setCenterViewController:navi withCloseAnimation:YES completion:nil];
         }
             break;
