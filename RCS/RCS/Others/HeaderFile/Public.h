@@ -56,6 +56,7 @@ alpha:alphaValue]
 // 屏幕大小尺寸
 #define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGTH   [UIScreen mainScreen].bounds.size.height
+#define UISreenWidthScale   SCREEN_WIDTH / 320
 
 //常用尺寸
 #define NORMAL_HEIGHT   44

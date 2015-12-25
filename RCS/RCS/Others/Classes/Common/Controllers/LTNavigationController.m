@@ -57,10 +57,10 @@
                                                                                          target:self
                                                                                          action:@selector(back)];
         
-        viewController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"chat_people"]
-                                                                                           style:UIBarButtonItemStyleDone
-                                                                                          target:self
-                                                                                          action:@selector(gotoRootController)];
+//        viewController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"chat_people"]
+//                                                                                           style:UIBarButtonItemStyleDone
+//                                                                                          target:self
+//                                                                                          action:@selector(gotoRootController)];
     }
     [super pushViewController:viewController animated:YES];
 }

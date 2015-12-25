@@ -106,6 +106,12 @@
 		2725919E1C2A6E1D00B33BA6 /* LTSignSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725919D1C2A6E1D00B33BA6 /* LTSignSettingViewController.m */; };
 		272591A41C2A8C5A00B33BA6 /* NTESSettingCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 272591A31C2A8C5A00B33BA6 /* NTESSettingCheckCell.m */; };
 		272591A71C2A94D400B33BA6 /* NTESBirthPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272591A61C2A94D400B33BA6 /* NTESBirthPickerView.m */; };
+		272591AD1C2BC59800B33BA6 /* NTESSettingSwitcherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 272591AC1C2BC59800B33BA6 /* NTESSettingSwitcherCell.m */; };
+		272591B01C2BD4CA00B33BA6 /* NTESSettingPortraitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 272591AF1C2BD4CA00B33BA6 /* NTESSettingPortraitCell.m */; };
+		272591B51C2BD7D900B33BA6 /* LTSystemNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272591B31C2BD7D900B33BA6 /* LTSystemNotificationViewController.m */; };
+		272591B61C2BD7D900B33BA6 /* LTSystemNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 272591B41C2BD7D900B33BA6 /* LTSystemNotificationViewController.xib */; };
+		272591BA1C2BD93200B33BA6 /* LTSystemNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 272591B81C2BD93200B33BA6 /* LTSystemNotificationCell.m */; };
+		272591BB1C2BD93200B33BA6 /* LTSystemNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 272591B91C2BD93200B33BA6 /* LTSystemNotificationCell.xib */; };
 		273D77961BF0856D009191B7 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273D77951BF0856D009191B7 /* BaiduMapAPI_Utils.framework */; };
 		27662BB01BECB8B800C3B976 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27662BAF1BECB8B800C3B976 /* BaiduMapAPI_Search.framework */; };
 		276FB8C71BD8922C006C1978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276FB8C61BD8922C006C1978 /* main.m */; };
@@ -326,6 +332,16 @@
 		272591A31C2A8C5A00B33BA6 /* NTESSettingCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSettingCheckCell.m; sourceTree = "<group>"; };
 		272591A51C2A94D400B33BA6 /* NTESBirthPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESBirthPickerView.h; sourceTree = "<group>"; };
 		272591A61C2A94D400B33BA6 /* NTESBirthPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESBirthPickerView.m; sourceTree = "<group>"; };
+		272591AB1C2BC59800B33BA6 /* NTESSettingSwitcherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSettingSwitcherCell.h; sourceTree = "<group>"; };
+		272591AC1C2BC59800B33BA6 /* NTESSettingSwitcherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSettingSwitcherCell.m; sourceTree = "<group>"; };
+		272591AE1C2BD4CA00B33BA6 /* NTESSettingPortraitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSettingPortraitCell.h; sourceTree = "<group>"; };
+		272591AF1C2BD4CA00B33BA6 /* NTESSettingPortraitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSettingPortraitCell.m; sourceTree = "<group>"; };
+		272591B21C2BD7D900B33BA6 /* LTSystemNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSystemNotificationViewController.h; sourceTree = "<group>"; };
+		272591B31C2BD7D900B33BA6 /* LTSystemNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSystemNotificationViewController.m; sourceTree = "<group>"; };
+		272591B41C2BD7D900B33BA6 /* LTSystemNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTSystemNotificationViewController.xib; sourceTree = "<group>"; };
+		272591B71C2BD93200B33BA6 /* LTSystemNotificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSystemNotificationCell.h; sourceTree = "<group>"; };
+		272591B81C2BD93200B33BA6 /* LTSystemNotificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSystemNotificationCell.m; sourceTree = "<group>"; };
+		272591B91C2BD93200B33BA6 /* LTSystemNotificationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTSystemNotificationCell.xib; sourceTree = "<group>"; };
 		273D77951BF0856D009191B7 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = RCS/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
 		27662BAF1BECB8B800C3B976 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = RCS/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
 		276FB8C11BD8922C006C1978 /* RCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -593,6 +609,7 @@
 		272590C71C27F2DA00B33BA6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				272591B11C2BD7AA00B33BA6 /* Notification */,
 				272590C81C27F2DA00B33BA6 /* LTContactAddFriendViewController.h */,
 				272590C91C27F2DA00B33BA6 /* LTContactAddFriendViewController.m */,
 				272590CA1C27F2DA00B33BA6 /* LTContactListViewController.h */,
@@ -860,8 +877,25 @@
 				272591A31C2A8C5A00B33BA6 /* NTESSettingCheckCell.m */,
 				272591A51C2A94D400B33BA6 /* NTESBirthPickerView.h */,
 				272591A61C2A94D400B33BA6 /* NTESBirthPickerView.m */,
+				272591AB1C2BC59800B33BA6 /* NTESSettingSwitcherCell.h */,
+				272591AC1C2BC59800B33BA6 /* NTESSettingSwitcherCell.m */,
+				272591AE1C2BD4CA00B33BA6 /* NTESSettingPortraitCell.h */,
+				272591AF1C2BD4CA00B33BA6 /* NTESSettingPortraitCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		272591B11C2BD7AA00B33BA6 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				272591B21C2BD7D900B33BA6 /* LTSystemNotificationViewController.h */,
+				272591B31C2BD7D900B33BA6 /* LTSystemNotificationViewController.m */,
+				272591B41C2BD7D900B33BA6 /* LTSystemNotificationViewController.xib */,
+				272591B71C2BD93200B33BA6 /* LTSystemNotificationCell.h */,
+				272591B81C2BD93200B33BA6 /* LTSystemNotificationCell.m */,
+				272591B91C2BD93200B33BA6 /* LTSystemNotificationCell.xib */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 		276FB8B81BD8922C006C1978 = {
@@ -1069,6 +1103,7 @@
 			files = (
 				276FB8D01BD8922C006C1978 /* Main.storyboard in Resources */,
 				272591451C27F2DA00B33BA6 /* LTRegisterViewController.xib in Resources */,
+				272591BB1C2BD93200B33BA6 /* LTSystemNotificationCell.xib in Resources */,
 				278438E01BE0B77900E20449 /* contacts.plist in Resources */,
 				272591341C27F2DA00B33BA6 /* LTContactListViewController.xib in Resources */,
 				270F02361BDA19D900C0214B /* avatar02.jpeg in Resources */,
@@ -1077,6 +1112,7 @@
 				272591551C27F37D00B33BA6 /* LTSearchTeamViewController.xib in Resources */,
 				2725914E1C27F2DA00B33BA6 /* LTSlideMenuHeaderView.xib in Resources */,
 				270F022D1BD9FDD500C0214B /* avatar01.jpeg in Resources */,
+				272591B61C2BD7D900B33BA6 /* LTSystemNotificationViewController.xib in Resources */,
 				279D2B871BDF5A0700FAD0D3 /* messages.plist in Resources */,
 				276FB8D21BD8922C006C1978 /* Images.xcassets in Resources */,
 				2725912F1C27F2DA00B33BA6 /* LTInputView.xib in Resources */,
@@ -1166,8 +1202,10 @@
 				2725915B1C27FC5C00B33BA6 /* UIAlertView+NTESBlock.m in Sources */,
 				2725911A1C27F2DA00B33BA6 /* UIImage+NTESColor.m in Sources */,
 				272591301C27F2DA00B33BA6 /* LTMessageCell.m in Sources */,
+				272591AD1C2BC59800B33BA6 /* NTESSettingSwitcherCell.m in Sources */,
 				272591161C27F2DA00B33BA6 /* NSString+NTES.m in Sources */,
 				272591401C27F2DA00B33BA6 /* NTESUserListCell.m in Sources */,
+				272591B51C2BD7D900B33BA6 /* LTSystemNotificationViewController.m in Sources */,
 				272591211C27F2DA00B33BA6 /* NTESCustomAttachmentDecoder.m in Sources */,
 				272591371C27F2DA00B33BA6 /* LTContactModel.m in Sources */,
 				2725912A1C27F2DA00B33BA6 /* NTESSessionUtil.m in Sources */,
@@ -1219,6 +1257,8 @@
 				272591251C27F2DA00B33BA6 /* LTImageCache.m in Sources */,
 				272591351C27F2DA00B33BA6 /* LTContactsViewController.m in Sources */,
 				272591581C27F3D200B33BA6 /* UIActionSheet+NTESBlock.m in Sources */,
+				272591B01C2BD4CA00B33BA6 /* NTESSettingPortraitCell.m in Sources */,
+				272591BA1C2BD93200B33BA6 /* LTSystemNotificationCell.m in Sources */,
 				272591431C27F2DA00B33BA6 /* LTLoginViewController.m in Sources */,
 				2725911F1C27F2DA00B33BA6 /* LTMessageModel.m in Sources */,
 				276FB8EE1BD8B105006C1978 /* AppDelegate.mm in Sources */,

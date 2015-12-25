@@ -20,10 +20,6 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <animations/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="UGg-5N-Juc"/>
-                        <outlet property="delegate" destination="-1" id="dsq-5j-zxW"/>
-                    </connections>
                 </tableView>
             </subviews>
             <animations/>
